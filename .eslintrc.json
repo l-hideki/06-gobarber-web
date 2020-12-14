@@ -29,7 +29,13 @@
     "prettier"
   ],
   "rules": {
-    "@typescript-eslint/ban-types":"off",
+    "@typescript-eslint/ban-types": "off",
+    "import/no-unresolved": [
+      2,
+      {
+        "caseSensitive": false
+      }
+    ],
     "react/prop-types": "off",
     "no-unused-expressions": "off",
     "react/jsx-props-no-spreading": "off",
