@@ -30,7 +30,8 @@
   ],
   "rules": {
     "@typescript-eslint/ban-types": "off",
-    "import/no-unresolved": [
+    "import/no-duplicates":"off"
+,    "import/no-unresolved": [
       2,
       {
         "caseSensitive": false
